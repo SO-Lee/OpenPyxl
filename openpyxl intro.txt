@@ -1,0 +1,15 @@
+# import openpyxl and Workbook
+
+import openpyxl
+from openpyxl import Workbook
+wb=Workbook()
+
+# import openpyxl and Workbook
+
+
+Again=wb.create_sheet()
+Again.title="Again"
+wb.get_sheet_names()
+wb.get_sheet_by_name("Again")
+
+sheet=pe.get_book(file_name="C:\\Users\\Mr Lee\\Documents\\Python Scripts\\pyexcel\\example.xlsx")
